@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Jost', sans-serif;
+}
+
+header{
+    background-image: url("./imgs/tennis.jpg");
+    background-size: 100%;
+}
+
+nav{
+    padding: 15px 0px;
+    border-bottom: 2px solid white;
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    color: white;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.hero h1{
+    margin-bottom: 60px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 270px;
+    margin-bottom: 170px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service{
+    width: 290px;
+    padding: 20px;
+    background-color: #8D86C9;
+}
+
+.service span{
+    margin-left: 40px;
+}
+
+.service h4{
+    margin-bottom: 20px;
+}
+
+.conforts{
+    display: flex;
+    justify-content: space-between; 
+}
+
+section{
+    padding: 50px 0px;
+}
+
+.conforts div{
+    width: 380px;
+    height: 450px;
+    border: 1px solid 
+    #F7ECE1;
+    padding: 20px;
+    position: relative;
+}
+
+.conforts div h2{
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    left: 10px;
+}
+
+.sports{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    position: relative;
+    padding: 50px;
+}
+
+.sports_info h2{
+    margin-bottom: 20px;
+}
+
+.sports_info h3{
+    padding: 15px 0px;
+}
+
+.sports::after{
+    position: absolute;
+    content: "";
+    width: 55%;
+    height: 100%;
+    background-color: #F7ECE1;
+    z-index: -1;
+    right: 0px;
+    top: 0px;
+}
+
+.sports_info ul{
+    margin-left: 20px;
+}
+
+.sports_info ul li{
+    margin-bottom: 10px;
+    font-style: 14px;
+}
+
+.sports p{
+    font-size: 14px;
+}
+
+.sports_info ul{
+    list-style-type: square;
+}
+
+.sports_info ul li::marker{
+    color: #8D86C9;
+    font-size: 20px;
+}
+
+.team_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.team_users{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_users div{
+    width: 180px;
+    text-align: center;
+}
+
+.team_users div h3{
+    padding: 10px 30px;
+}
+
+.priice{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left, .right{
+    width: 48%;
+}
+
+.left h2{
+    margin-bottom: 50px;
+}
+
+.right_info{
+    border: 2px solid #F7ECE1;
+    padding: 20px;
+    
+}
+
+.right_info img{
+    position: relative;
+}
+
+.right_info h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 3070px;
+    left: 830px;
+}
+.left div{
+    background-color:#8D86C9;
+    color: white;
+    display: flex;
+    justify-content: space-between;       
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+footer{
+    background-color: 
+    #F7ECE1;
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footer_container ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.footer_container ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+.after{
+    color: #33333394;
+}
+
+.footer_social{
+    display: flex;
+    gap: 20px;
+}
